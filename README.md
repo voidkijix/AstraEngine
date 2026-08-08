@@ -9,5 +9,11 @@ the Free Software Foundation, version 3 of the License.
 
 This engine as we speak is simple and cannot do more beyond render a .obj and attach a jpg  
 Ill eventually add more to this engine in due time, but for now bear with this 
-As for how to use the engine, you simply add a .obj file aswell as its texture nex to the binary and it will be rendered, its that simple  
 I hope that this engine will eventually be developed further into something more grand
+
+> curruntly to use the engine you will include astralib/astra.h into main.cpp,  
+> and then you can call astra::init()  
+> then astra::add_obj("your.obj")  
+> then astra::render()
+  
+eventually more will be added
