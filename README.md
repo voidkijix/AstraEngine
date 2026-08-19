@@ -13,7 +13,7 @@ I hope that this engine will eventually be developed further into something more
 
 > curruntly to use the engine you will include astralib/astra.h into main.cpp,  
 > and then you can call astra::init()  
-> then astra::add_obj("your.obj")  
+> then astra::add_obj("your.obj","your texture",std::vec3(0.0f,0.0f,0.0f))  
 > then astra::render()
   
 eventually more will be added

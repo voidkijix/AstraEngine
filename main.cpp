@@ -5,7 +5,8 @@
 
 int main() {
     astra::init();
-    astra::obj_add("model.obj");
+    astra::obj_add("temp/model.obj","temp/texture.jpg",glm::vec3(0.0f,0.0f,0.0f));
+    astra::obj_add("temp/model.obj","temp/texture.jpg",glm::vec3(0.0f,0.0f,7.5f));
     astra::render();
     return 0;
 }
